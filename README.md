@@ -22,10 +22,9 @@ titanic-ml-project/
 │   └── processed/          # Store processed data files
 │
 ├── notebooks/              # Jupyter notebooks for EDA and modeling
-│   ├── 01_EDA.ipynb        # Exploratory Data Analysis notebook
-│   ├── 02_Preprocessing.ipynb  # Preprocessing steps notebook
-│   ├── 03_Modeling.ipynb      # Modeling notebook
-│   └── 04_Evaluation.ipynb     # Evaluation and conclusion notebook
+│   ├── 01_EDA_and_PreProcessing.ipynb        # Exploratory Data Analysis and Preprocessing steps notebook
+│   ├── 02_Modeling.ipynb      # Modeling notebook
+│   └── 03_Evaluation.ipynb     # Evaluation and conclusion notebook
 │
 ├── requirements.txt        # List of dependencies
 ├── README.md               # Project overview and instructions
