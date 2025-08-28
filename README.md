@@ -23,8 +23,7 @@ titanic-ml-project/
 │
 ├── notebooks/              # Jupyter notebooks for EDA and modeling
 │   ├── 01_EDA_and_PreProcessing.ipynb        # Exploratory Data Analysis and Preprocessing steps notebook
-│   ├── 02_Modeling.ipynb      # Modeling notebook
-│   └── 03_Evaluation.ipynb     # Evaluation and conclusion notebook
+│   ├── 02_Modeling.ipynb      # Modeling, Evaluation and Conclusion notebook
 │
 ├── requirements.txt        # List of dependencies
 ├── README.md               # Project overview and instructions
@@ -40,25 +39,24 @@ pip install -r requirements.txt
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/titanic-ml-project.git
+   git clone https://github.com/Bladys0710/titanic-ml-project.git
    cd titanic-ml-project
    ```
 2. Open the Jupyter notebooks in your preferred environment (e.g., Google Colab, Jupyter Notebook).
 3. Follow the notebooks in order:
-   - Start with `01_EDA.ipynb` for exploratory data analysis.
-   - Proceed to `02_Preprocessing.ipynb` for data cleaning and preparation.
-   - Use `03_Modeling.ipynb` to build and train your machine learning models.
-   - Finally, review `04_Evaluation.ipynb` for model evaluation and conclusions.
+   - `01_EDA_and_PreProcessing.ipynb`: combines exploratory data analysis and data cleaning/preparation.
+   - `02_Modeling_and_Evaluation.ipynb`: includes building and training machine learning models, as well as model evaluation and conclusions.
+
 
 ## Data
 The dataset used in this project is the Titanic dataset from Kaggle. It contains information about the passengers, including features such as age, gender, class, and whether they survived.
 
 ## Modeling
 This project explores various machine learning algorithms, including:
-- Logistic Regression
-- Decision Trees
+- HistGradientBoosting
+- XGBoost
 - Random Forests
-- Support Vector Machines
+- Decision Trees
 
 ## Evaluation
 Model performance is evaluated using metrics such as accuracy, precision, recall, and F1-score. Visualizations such as ROC curves are also included to assess model performance.
