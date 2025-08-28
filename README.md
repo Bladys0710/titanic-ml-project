@@ -24,6 +24,7 @@ titanic-ml-project/
 ├── notebooks/              # Jupyter notebooks for EDA and modeling
 │   ├── 01_EDA_and_PreProcessing.ipynb        # Exploratory Data Analysis and Preprocessing steps notebook
 │   ├── 02_Modeling.ipynb      # Modeling, Evaluation and Conclusion notebook
+│   ├── 03_SubmissionFile_Generator           # Generation of the file to be load on the competition
 │
 ├── requirements.txt        # List of dependencies
 ├── README.md               # Project overview and instructions
